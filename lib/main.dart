@@ -32,7 +32,51 @@ class MyApp extends StatelessWidget {
                     color: Colors.white,
                     fontSize: 20,
                   ),
-                  "Flutter Developer")
+                  "Flutter Developer"),
+              SizedBox(
+                height: 30,
+                width: 250,
+                child: Divider(
+                  color: Colors.white,
+                  thickness: 1,
+                ),
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    // color: Colors.white,
+                    size: 20,
+                  ),
+                  title: Text(
+                    "+91 - 9711934105",
+                    style: TextStyle(
+                      // color: Colors.white,
+                      fontSize: 20,
+                    ),
+                  ),
+                ),
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    // color: Colors.white,
+                    size: 20,
+                  ),
+                  title: Text(
+                    "anishhazra108@gmail.com",
+                    style: TextStyle(
+                      // color: Colors.white,
+                      fontSize: 20,
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
